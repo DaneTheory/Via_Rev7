@@ -102,11 +102,22 @@ textarea {
    SIDEBAR STYLES
 ========================================================================== */
 
+.sideBar-wrapper {
+    position: fixed;
+}
+
+.sidebar {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 #logo {
     position: relative;
     display: block;
     text-align: center;
-    margin-top: 35%;
+    margin-top: 27.25%;
     white-space: nowrap;
 }
 
@@ -127,12 +138,6 @@ textarea {
     font-style:italic;
     -webkit-font-smoothing: antialiased;
     font-weight:bold:
-}
-
-#moreInfo {
-    display: inline-block;
-    position: relative;
-    left: -2.5em;
 }
 
 #socialMedia {
@@ -177,13 +182,6 @@ h1.titlePage {
 	line-height:5em;
 }
 
-h5.internalType {
-    color: black;
-    text-align: right;
-    position: relative;
-    top: 0.5em;
-}
-
 .internalSocial {
     text-align: right;
     position: relative;
@@ -201,6 +199,34 @@ footer.row {
 
 .mainPhotoImage img {
     box-shadow: 0px 0px 10px black;
+}
+
+#moreInfo {
+    position: relative;
+    display: block;
+    text-align: left;
+    margin-top: 35%;
+    white-space: nowrap;
+}
+
+h5.moreInfo {
+    color: #95979A;
+	-webkit-font-smoothing: antialiased;
+    font-size: 0.955em;
+    margin-left: 20%;
+    margin-right: auto;
+    font-family: 'ProximaNova-Regular';
+}
+
+img.logoFront {
+    z-index: 10;
+    position: absolute;
+}
+
+img.logoBehind {
+    z-index: 1;
+    position: absolute;
+    top: 15%;
 }
 
 
@@ -407,8 +433,8 @@ body,
 	z-index: 1000;
 	margin: 1em;
 	padding: 0;
-	width: 2.5em;
-	height: 2.25em;
+	width: 1.85em;
+	height: 1.85em;
 	border: none;
 	text-indent: 2.5em;
 	font-size: 1.5em;
