@@ -1,0 +1,1171 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+	/* For Masonry to work, use overflow-y: scroll */
+	overflow-y: scroll;
+
+    color: #222;
+    font-size: 1em;
+    /* line-height: 1.4; */
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    /* background: #b3d4fc; */
+    /* text-shadow: none; */
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+	/* ==========================================================================
+	  HELPER STYLES
+	   ========================================================================== */
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+
+/* ==========================================================================
+   SIDEBAR STYLES
+========================================================================== */
+
+#logo {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 35%;
+    white-space: nowrap;
+}
+
+#logo img{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.infoLinks {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.infoLinks a {
+    color: black;
+    font-style:italic;
+    -webkit-font-smoothing: antialiased;
+    font-weight:bold:
+}
+
+#moreInfo {
+    display: inline-block;
+    position: relative;
+    left: -2.5em;
+}
+
+#socialMedia {
+    display: block;   position: relative;
+    left: -3.5em;
+    top: 5em;
+}
+
+button#open-button {
+    outline: 0;
+}
+
+span.infoSlash {
+    color: black;
+}
+
+nav.menu {
+    position: absolute;
+    display: block;
+    top: 3em;
+}
+
+h1.titlePage {
+    font-size: 2em;
+    display: inline-block;
+    /* margin: auto; */
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.button-group {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.button-group span{
+	color:white;
+	line-height:5em;
+}
+
+h5.internalType {
+    color: black;
+    text-align: right;
+    position: relative;
+    top: 0.5em;
+}
+
+.internalSocial {
+    text-align: right;
+    position: relative;
+}
+
+h6.internalFooter {
+    color: black;
+    text-align: right;
+}
+
+footer.row {
+    position: absolute;
+    bottom: 0;
+}
+
+.mainPhotoImage img {
+    box-shadow: 0px 0px 10px black;
+}
+
+
+/* ==========================================================================
+   INTERNAL PAGES STYLES
+   ========================================================================== */
+/*
+** Photo Page */
+h1.internalName {
+    color: black;
+    text-align: center;
+}
+
+.mainPhotoImage {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.mainGif {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.mainVideo {
+    box-shadow: 0px 0px 20px black;
+}
+
+
+/* ==========================================================================
+   CUSTOM STYLES
+   ========================================================================== */
+
+body {
+    font-family: sans-serif;
+    margin: 0; padding: 0;
+}
+
+.mainPhotoWrapper {
+    float: left;
+    position: relative;
+    /* line-height: 1em; */
+    width: 33.33333333333%;
+		display:none;
+}
+.mainPhotoWrapper > img{
+	width: 100%;
+	height: auto;
+}
+/* MASONRY COLUMN WIDTH SET */
+
+
+
+/*#windowContainer {
+    max-width: 800px !important;
+}*/
+
+/*.stamp {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background: url('../images/stamp.png');
+  background-size: 110% 140%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}*/
+
+/*.stamp1 {
+  left: 60%;
+  top: 0;
+}*/
+
+.w2 { width: 25%; }
+
+.h2 { height: 25%; }
+
+
+.mainPhoto.w2{
+    max-width: 110%;
+    margin: 0;
+    display: block;
+}
+
+.tumblrLikeButtonDefault {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/*[data-display="default"] {
+    display: none;
+
+}*/
+
+.mainPhoto {
+	overflow: hidden;
+	z-index: -10;
+    -webkit-transition: all 2.5s ease-in-out;
+    -moz-transition: all 2.5s ease-in-out;
+    -o-transition: all 2.5s ease-in-out;
+    -ms-transition: all 2.5s ease-in-out;
+}
+
+/*.transition {
+	overflow: hidden;
+	z-index: -10;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    width:100%;
+}*/
+
+.infoOverlay {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+  /*-webkit-animation-iteration-count: infinite;*/
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 0s;
+  /*-moz-animation-iteration-count: infinite;*/
+}
+
+.infoOverlay .artistName {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0.25s;
+  /*-webkit-animation-iteration-count: infinite;*/
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 0.25s;
+  /*-moz-animation-iteration-count: infinite;*/
+
+}
+
+.infoOverlay .tumblrLikeButton {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0.4s;
+  /*-webkit-animation-iteration-count: infinite;*/
+  -moz-animation-duration: 1s;;
+  -moz-animation-delay: 0.4s;
+  /*-moz-animation-iteration-count: infinite;*/
+
+}
+
+html,
+body,
+.container,
+.content-wrap {
+	/* overflow: hidden; */
+	width: 100%;
+	height: 100%;
+}
+
+html,
+body,
+.container,
+.content-wrap {
+	/* position:fixed; */
+}
+
+.container {
+	background: #373a47;
+}
+
+.menu-wrap a {
+	color: #b8b7ad;
+}
+
+.menu-wrap a:hover,
+.menu-wrap a:focus {
+	color: #c94e50;
+}
+
+.content-wrap {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.content {
+	position: relative;
+	background: #b4bad2;
+}
+
+.content::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+	-webkit-transition: opacity 0.4s, -webkit-transform 0s 0.4s;
+	transition: opacity 0.4s, transform 0s 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+/* Menu Button */
+.menu-button {
+	position: fixed;
+	z-index: 1000;
+	margin: 1em;
+	padding: 0;
+	width: 2.5em;
+	height: 2.25em;
+	border: none;
+	text-indent: 2.5em;
+	font-size: 1.5em;
+	color: transparent;
+	background: transparent;
+}
+
+.menu-button::before {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	bottom: 0.5em;
+	left: 0.5em;
+	background: linear-gradient(#d1d3d4 20%, transparent 20%, transparent 40%, #d1d3d4 40%, #d1d3d4 60%, transparent 60%, transparent 80%, #d1d3d4 80%);
+	content: '';
+}
+
+.menu-button:hover {
+	/* opacity: 0.6; */
+}
+
+/* Close Button */
+.close-button {
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	overflow: hidden;
+	/* text-indent: 1em; */
+	/* font-size: 0.75em; */
+	border: none;
+	background: transparent;
+	color: transparent;
+}
+
+.close-button::before,
+.close-button::after {
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	background: #ffffff;
+}
+
+.close-button::before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.close-button::after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/* Menu */
+.menu-wrap {
+	position: fixed;
+	z-index: 1001;
+	width: 300px;
+	height: 100%;
+	background: #2499cd;
+	padding: 0em 0em 0;
+	font-size: 1.15em;
+	-webkit-transform: translate3d(-320px,0,0);
+	transform: translate3d(-320px,0,0);
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.menu,
+.icon-list {
+	height: 100%;
+}
+
+.icon-list {
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.icon-list a {
+	display: block;
+	padding: 0.8em;
+	-webkit-transform: translate3d(0,500px,0);
+	transform: translate3d(0,500px,0);
+}
+
+.icon-list,
+.icon-list a {
+	-webkit-transition: -webkit-transform 0s 0.4s;
+	transition: transform 0s 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.icon-list a:nth-child(2) {
+	-webkit-transform: translate3d(0,1000px,0);
+	transform: translate3d(0,1000px,0);
+}
+
+.icon-list a:nth-child(3) {
+	-webkit-transform: translate3d(0,1500px,0);
+	transform: translate3d(0,1500px,0);
+}
+
+.icon-list a:nth-child(4) {
+	-webkit-transform: translate3d(0,2000px,0);
+	transform: translate3d(0,2000px,0);
+}
+
+.icon-list a:nth-child(5) {
+	-webkit-transform: translate3d(0,2500px,0);
+	transform: translate3d(0,2500px,0);
+}
+
+.icon-list a:nth-child(6) {
+	-webkit-transform: translate3d(0,3000px,0);
+	transform: translate3d(0,3000px,0);
+}
+
+.icon-list a span {
+	margin-left: 10px;
+	font-weight: 700;
+}
+
+/* Shown menu */
+.show-menu .menu-wrap {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-transition: -webkit-transform 0.8s;
+	transition: transform 0.8s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.show-menu .icon-list,
+.show-menu .icon-list a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-transition: -webkit-transform 0.8s;
+	transition: transform 0.8s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.show-menu .icon-list a {
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+
+.show-menu .content::before {
+	opacity: 1;
+	-webkit-transition: opacity 0.8s;
+	transition: opacity 0.8s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+@media screen and (max-width: 1681px) {
+
+
+}
+
+@media screen and (max-width: 1224px) {
+  /* 10 columns for larger screens */
+
+
+	.stamp {
+		position: absolute;
+		width: 60%;
+		height: 33.33%;
+		background: url('../images/stamp.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.stamp1 {
+		left: 40%;
+		top: 0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+  /* 10 columns for larger screens */
+	.stamp {
+	  position: absolute;
+	  width: 100%;
+	  height: 50%;
+	  background: url('../images/stamp.png');
+	  background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.stamp1 {
+	  left: 50%;
+	  top: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+  /* 10 columns for larger screens */
+
+	.stamp {
+		position: absolute;
+		width: 100%;
+		height:10%;
+		background: url('../images/stamp.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.stamp1 {
+		left: 0;
+		top: 0;
+	}
+
+}
+
+.mainPhoto{
+    max-width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.mainPhoto:after {
+    clear:both;
+}
+
+.infoOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38,182,232,0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+    /* display: none; */
+    opacity: 0;
+    filter:alpha(opacity=100);/*position where
+    enlarged image should offset horizontally */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.infoOverlay:hover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38,182,232,0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+    /* display: none; */
+    opacity: 1;
+}
+
+.infoOverlay .artistName {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    /* z-index: 99999; */
+    position: absolute;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+}
+
+.infoOverlay .tumblrLikeButton {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    /* background-color: rgba(0,0,0,0.80); */
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+.infoOverlay .tumblrLikeButton p {
+    margin: 20px;
+}
+
+.mainPhotoWrapper:hover .infoOverlay {
+    display: block;
+    overflow: hidden;
+}
+
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+}
+
+/*#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #26B6E8;
+
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+
+    z-index: 9999999;
+}*/
+
+    /*#loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #26B6E8;
+
+        -webkit-animation: spin 3s linear infinite;
+        animation: spin 3s linear infinite;
+    }*/
+
+    /*#loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #26B6E8;
+
+        -webkit-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite;
+    }*/
+
+    .load-logo {
+	    display: block;
+	    position: relative;
+	    left: 50%;
+	    top: 50%;
+	    width: 120px;
+	    height: 120px;
+	    margin: -75px 0 0 -75px;
+	    z-index: 9999999;
+
+		background: url('../images/assets/logo.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100% 100%;
+
+		/*margin: 1em auto;*/
+-webkit-perspective: 1200px;
+-moz-perspective: 1200px;
+-ms-perspective: 1200px;
+perspective: 1200px;
+
+    }
+
+
+
+
+		/* WebKit and Opera browsers */
+	  @-webkit-keyframes spinner {
+	    from { -webkit-transform: rotateY(0deg);    }
+	    to   { -webkit-transform: rotateY(-360deg); }
+
+
+	  }
+
+	  /* all other browsers */
+	  @keyframes spinner {
+	    from {
+	      -moz-transform: rotateY(0deg);
+	      -ms-transform: rotateY(0deg);
+	      transform: rotateY(0deg);
+	    }
+	    to {
+	      -moz-transform: rotateY(-360deg);
+	      -ms-transform: rotateY(-360deg);
+	      transform: rotateY(-360deg);
+	    }
+	  }
+
+
+		#spinner {
+	    -webkit-animation-name: spinner;
+	    -webkit-animation-timing-function: linear;
+			-webkit-animation-iteration-count: infinite;
+	    -webkit-animation-duration: 2s;
+			-webkit-animation-delay: 0s;
+
+	    animation-name: spinner;
+	    animation-timing-function: linear;
+			-webkit-animation-iteration-count: infinite;
+	    animation-duration: 2s;
+
+	    -webkit-transform-style: preserve-3d;
+	    -moz-transform-style: preserve-3d;
+	    -ms-transform-style: preserve-3d;
+	    transform-style: preserve-3d;
+	  }
+
+
+
+
+
+
+@-webkit-keyframes fade-out {
+0% { opacity: 1; -webkit-transform: scale(1);}
+85% {opacity: 1; -webkit-transform: scale(1.05);}
+100% {-webkit-transform: scale(.1); opacity: 0;}
+}
+
+.fade-out {
+    -webkit-animation: fade-out .5s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+    opacity: 1;
+}
+
+.fade-out.one {-webkit-animation-delay: .5s;}
+.fade-out.two {-webkit-animation-delay: 1.5s;}
+.fade-out.three {-webkit-animation-delay: 0s;}
+.fade-out.four {-webkit-animation-delay: 3.38s;}
+
+    @-webkit-keyframes spin {
+        0%   {
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   {
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+
+
+
+    #loader-wrapper .loader-section {
+        position: fixed;
+        top: 0;
+        width: 51%;
+        height: 100%;
+        background: #ffffff;
+        z-index: 1000;
+        -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(0);  /* IE 9 */
+        transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader-wrapper .loader-section.section-left {
+        left: 0;
+    }
+
+    #loader-wrapper .loader-section.section-right {
+        right: 0;
+    }
+
+    /* Loaded */
+    .loaded #loader-wrapper .loader-section.section-left {
+        -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(-100%);  /* IE 9 */
+                transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+
+    .loaded #loader-wrapper .loader-section.section-right {
+        -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(100%);  /* IE 9 */
+                transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+
+-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+
+    .loaded #loader {
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+    }
+    .loaded #loader-wrapper {
+        visibility: hidden;
+
+        -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateY(-100%);  /* IE 9 */
+                transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.3s 1s ease-out;
+                transition: all 0.3s 1s ease-out;
+    }
+
+    /* JavaScript Turned Off */
+    .no-js #loader-wrapper {
+        display: none;
+    }
+
+body {
+    opacity: 0;
+    -webkit-transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -moz-transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -o-transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -ms-transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+body.load {
+    opacity: 1;
+}
+
+.homesocial {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+h6.homeBrand {
+    position: absolute;
+    top: 0;
+}
+
+.typeIcon {
+    position: absolute;
+    display: block;
+    right: 0;
+    width:10%;
+    margin:0.2em;
+    margin-right:-0.5em;
+}
+
+.typeIcon img{
+    width:60%;
+    height:60%;
+}
+
+
+.back {
+    position: absolute;
+    width: 5em;
+    height: auto;
+    display: inline-block;
+    left: 94%;
+    top: 30%;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

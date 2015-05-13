@@ -1,0 +1,346 @@
+/*
+Font: 		Baskerville
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T1175/baskerville
+Foundry: 	URW++
+Foundry: 	https://www.youworkforthem.com/designer/204/urw
+Copyright:	Copyright 2010 URW++ Design & Development
+Version: 	17
+Created:	March 20, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Baskerville-Reg';
+	src: url('baskerville.eot');
+	src: url('baskerville.eot?#iefix') format('embedded-opentype'),
+             url('baskerville.woff2') format('woff2'),
+	     url('baskerville.woff') format('woff'),
+	     url('baskerville.ttf') format('truetype'),
+	     url('baskerville.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Baskerville
+Style: 		Bold
+URL: 		https://www.youworkforthem.com/font/T1175/baskerville
+Foundry: 	URW++
+Foundry: 	https://www.youworkforthem.com/designer/204/urw
+Copyright:	Copyright 2010 URW++ Design & Development
+Version: 	17
+Created:	March 20, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Baskerville-Bol';
+	src: url('baskerville-bold.eot');
+	src: url('baskerville-bold.eot?#iefix') format('embedded-opentype'),
+             url('baskerville-bold.woff2') format('woff2'),
+	     url('baskerville-bold.woff') format('woff'),
+	     url('baskerville-bold.ttf') format('truetype'),
+	     url('baskerville-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Baskerville
+Style: 		Medium
+URL: 		https://www.youworkforthem.com/font/T1175/baskerville
+Foundry: 	URW++
+Foundry: 	https://www.youworkforthem.com/designer/204/urw
+Copyright:	Copyright 2010 URW++ Design & Development
+Version: 	17
+Created:	March 20, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Baskerville-Med';
+	src: url('baskerville-medium.eot');
+	src: url('baskerville-medium.eot?#iefix') format('embedded-opentype'),
+             url('baskerville-medium.woff2') format('woff2'),
+	     url('baskerville-medium.woff') format('woff'),
+	     url('baskerville-medium.ttf') format('truetype'),
+	     url('baskerville-medium.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Baskerville
+Style: 		Medium Italic
+URL: 		https://www.youworkforthem.com/font/T1175/baskerville
+Foundry: 	URW++
+Foundry: 	https://www.youworkforthem.com/designer/204/urw
+Copyright:	Copyright 2010 URW++ Design & Development
+Version: 	17
+Created:	March 20, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Baskerville-MedIta';
+	src: url('baskerville-medium-italic.eot');
+	src: url('baskerville-medium-italic.eot?#iefix') format('embedded-opentype'),
+             url('baskerville-medium-italic.woff2') format('woff2'),
+	     url('baskerville-medium-italic.woff') format('woff'),
+	     url('baskerville-medium-italic.ttf') format('truetype'),
+	     url('baskerville-medium-italic.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Baskerville
+Style: 		Regular Italic
+URL: 		https://www.youworkforthem.com/font/T1175/baskerville
+Foundry: 	URW++
+Foundry: 	https://www.youworkforthem.com/designer/204/urw
+Copyright:	Copyright 2010 URW++ Design & Development
+Version: 	17
+Created:	March 20, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Baskerville-RegIta';
+	src: url('baskerville-regular-italic.eot');
+	src: url('baskerville-regular-italic.eot?#iefix') format('embedded-opentype'),
+             url('baskerville-regular-italic.woff2') format('woff2'),
+	     url('baskerville-regular-italic.woff') format('woff'),
+	     url('baskerville-regular-italic.ttf') format('truetype'),
+	     url('baskerville-regular-italic.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Proxima Nova
+Style: 		Black
+URL: 		https://www.youworkforthem.com/font/T0467/proxima-nova
+Foundry: 	Mark Simonson
+Foundry: 	https://www.youworkforthem.com/designer/73/mark-simonson
+Copyright:	Copyright (c) Mark Simonson, 2005. All rights reserved.
+Version: 	17
+Created:	March 19, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ProximaNova-Black';
+	src: url('proxima-nova-black.eot');
+	src: url('proxima-nova-black.eot?#iefix') format('embedded-opentype'),
+             url('proxima-nova-black.woff2') format('woff2'),
+	     url('proxima-nova-black.woff') format('woff'),
+	     url('proxima-nova-black.ttf') format('truetype'),
+	     url('proxima-nova-black.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Proxima Nova
+Style: 		Bold
+URL: 		https://www.youworkforthem.com/font/T0467/proxima-nova
+Foundry: 	Mark Simonson
+Foundry: 	https://www.youworkforthem.com/designer/73/mark-simonson
+Copyright:	Copyright (c) Mark Simonson, 2005. All rights reserved.
+Version: 	17
+Created:	March 19, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('proxima-nova-bold.eot');
+	src: url('proxima-nova-bold.eot?#iefix') format('embedded-opentype'),
+             url('proxima-nova-bold.woff2') format('woff2'),
+	     url('proxima-nova-bold.woff') format('woff'),
+	     url('proxima-nova-bold.ttf') format('truetype'),
+	     url('proxima-nova-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Proxima Nova
+Style: 		Extrabold
+URL: 		https://www.youworkforthem.com/font/T0467/proxima-nova
+Foundry: 	Mark Simonson
+Foundry: 	https://www.youworkforthem.com/designer/73/mark-simonson
+Copyright:	Copyright (c) Mark Simonson, 2005. All rights reserved.
+Version: 	17
+Created:	March 19, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ProximaNova-Extrabld';
+	src: url('proxima-nova-extrabold.eot');
+	src: url('proxima-nova-extrabold.eot?#iefix') format('embedded-opentype'),
+             url('proxima-nova-extrabold.woff2') format('woff2'),
+	     url('proxima-nova-extrabold.woff') format('woff'),
+	     url('proxima-nova-extrabold.ttf') format('truetype'),
+	     url('proxima-nova-extrabold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Proxima Nova
+Style: 		Light
+URL: 		https://www.youworkforthem.com/font/T0467/proxima-nova
+Foundry: 	Mark Simonson
+Foundry: 	https://www.youworkforthem.com/designer/73/mark-simonson
+Copyright:	Copyright (c) Mark Simonson, 2005. All rights reserved.
+Version: 	17
+Created:	March 19, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('proxima-nova-light.eot');
+	src: url('proxima-nova-light.eot?#iefix') format('embedded-opentype'),
+             url('proxima-nova-light.woff2') format('woff2'),
+	     url('proxima-nova-light.woff') format('woff'),
+	     url('proxima-nova-light.ttf') format('truetype'),
+	     url('proxima-nova-light.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Proxima Nova
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T0467/proxima-nova
+Foundry: 	Mark Simonson
+Foundry: 	https://www.youworkforthem.com/designer/73/mark-simonson
+Copyright:	Copyright (c) Mark Simonson, 2005. All rights reserved.
+Version: 	17
+Created:	March 19, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('proxima-nova-regular.eot');
+	src: url('proxima-nova-regular.eot?#iefix') format('embedded-opentype'),
+             url('proxima-nova-regular.woff2') format('woff2'),
+	     url('proxima-nova-regular.woff') format('woff'),
+	     url('proxima-nova-regular.ttf') format('truetype'),
+	     url('proxima-nova-regular.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Proxima Nova
+Style: 		Semibold
+URL: 		https://www.youworkforthem.com/font/T0467/proxima-nova
+Foundry: 	Mark Simonson
+Foundry: 	https://www.youworkforthem.com/designer/73/mark-simonson
+Copyright:	Copyright (c) Mark Simonson, 2005. All rights reserved.
+Version: 	17
+Created:	March 19, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('proxima-nova-semibold.eot');
+	src: url('proxima-nova-semibold.eot?#iefix') format('embedded-opentype'),
+             url('proxima-nova-semibold.woff2') format('woff2'),
+	     url('proxima-nova-semibold.woff') format('woff'),
+	     url('proxima-nova-semibold.ttf') format('truetype'),
+	     url('proxima-nova-semibold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*
+Font: 		Proxima Nova
+Style: 		Thin
+URL: 		https://www.youworkforthem.com/font/T0467/proxima-nova
+Foundry: 	Mark Simonson
+Foundry: 	https://www.youworkforthem.com/designer/73/mark-simonson
+Copyright:	Copyright (c) Mark Simonson, 2005. All rights reserved.
+Version: 	17
+Created:	March 19, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ProximaNovaT-Thin';
+	src: url('proxima-nova-thin.eot');
+	src: url('proxima-nova-thin.eot?#iefix') format('embedded-opentype'),
+             url('proxima-nova-thin.woff2') format('woff2'),
+	     url('proxima-nova-thin.woff') format('woff'),
+	     url('proxima-nova-thin.ttf') format('truetype'),
+	     url('proxima-nova-thin.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
