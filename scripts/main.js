@@ -29,6 +29,61 @@ $(document).ready(function() {
 
 
 
+
+$(document).ready(function() {
+
+  var $logoOverlay = $("a.logoOverlay");
+  var $logoBehind = $(".logoBehind");
+
+  $(".logoFront").hover(function(){
+
+    clearTimeout();
+
+    $logoBehind.addClass("logoActive");
+    $logoOverlay.addClass("logoActive2");
+
+      if( $logoBehind.hasClass("logoActive") ){
+
+        $logoBehind.stop(true,true).animate({ marginTop: '10%'}, 500, "easeInOutCirc");
+        $logoOverlay.stop(true,true).animate({ marginTop: '10%', width: '238px', opacity: '1'}, 500, "easeInOutCirc");
+        $("#moreInfo").stop(true,true).animate({ marginTop: '23%'}, 500, "easeInOutCirc");
+        $("#socialMedia").stop(true,true).animate({ marginTop: '32%'}, 550, "easeInOutCirc");
+
+
+          setTimeout(function(){
+
+            $(".featuredArtist").stop(true,true).animate({ marginLeft: '100%', opacity: "1"}, 400, "easeInOutCirc");
+
+          }, 150);
+
+      }
+
+
+  },
+
+    function () {
+
+      setTimeout(function(){
+
+        $logoOverlay.stop(true,true).animate({ marginTop: '2%', width: '0px', opacity: '0'}, 50, "easeInOutCirc");
+        $logoBehind.stop(true,true).animate({ marginTop: '2%'}, 500, "easeInOutCirc");
+        $("#moreInfo").stop(true,true).animate({ marginTop: '17%'}, 520, "easeInOutCirc");
+        $("#socialMedia").stop(true,true).animate({ marginTop: '27%'}, 600, "easeInOutCirc");
+
+        $logoBehind.removeClass("logoActive");
+        $logoOverlay.removeClass("logoActive2");
+
+      }, 500);
+
+      $(".featuredArtist").animate({ marginLeft: '0%', opacity: '0'}, 400, "easeInOutCirc");
+
+    })
+
+
+
+});
+
+
 $(document).ready(function(){
 
     $('a.back').click(function(){
