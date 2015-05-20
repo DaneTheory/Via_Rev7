@@ -1,87 +1,87 @@
 $(document).ready(function() {
 
- var $this = $("loader-wrapper");
+  var $this = $("loader-wrapper");
 
- $this.fadeOut('fast', function(){ $this.next().fadeIn('slow'); });
-
-});
-
-
-
-
-
-$(document).ready(function() {
-  $(this).css('overflow','hidden');
-
-  var $socialFind = $(this).find('.homesocial');
-
-    $(".mainPhotoWrapper").hover(function() {
-
-        event.preventDefault();
-
-        $socialFind.slideDown(200);
-
-    }, function() {
-        $socialFind.slideUp(500).stop(true,true);
-    });
+  $this.fadeOut('fast', function(){ $this.next().fadeIn('slow'); });
 
 });
 
 
 
 
-$(document).ready(function() {
 
-  var $logoOverlay = $("a.logoOverlay");
-  var $logoBehind = $(".logoBehind");
-
-  $(".logoFront").hover(function(){
-
-    clearTimeout();
-
-    $logoBehind.addClass("logoActive");
-    $logoOverlay.addClass("logoActive2");
-
-      if( $logoBehind.hasClass("logoActive") ){
-
-        $logoBehind.stop(true,true).animate({ marginTop: '10%'}, 500, "easeInOutCirc");
-        $logoOverlay.stop(true,true).animate({ marginTop: '10%', width: '238px', opacity: '1'}, 500, "easeInOutCirc");
-        $("#moreInfo").stop(true,true).animate({ marginTop: '23%'}, 500, "easeInOutCirc");
-        $("#socialMedia").stop(true,true).animate({ marginTop: '32%'}, 550, "easeInOutCirc");
-
-
-          setTimeout(function(){
-
-            $(".featuredArtist").stop(true,true).animate({ marginLeft: '100%', opacity: "1"}, 400, "easeInOutCirc");
-
-          }, 150);
-
-      }
-
-
-  },
-
-    function () {
-
-      setTimeout(function(){
-
-        $logoOverlay.stop(true,true).animate({ marginTop: '2%', width: '0px', opacity: '0'}, 50, "easeInOutCirc");
-        $logoBehind.stop(true,true).animate({ marginTop: '2%'}, 500, "easeInOutCirc");
-        $("#moreInfo").stop(true,true).animate({ marginTop: '17%'}, 520, "easeInOutCirc");
-        $("#socialMedia").stop(true,true).animate({ marginTop: '27%'}, 600, "easeInOutCirc");
-
-        $logoBehind.removeClass("logoActive");
-        $logoOverlay.removeClass("logoActive2");
-
-      }, 500);
-
-      $(".featuredArtist").animate({ marginLeft: '0%', opacity: '0'}, 400, "easeInOutCirc");
-
-    })
+// $(document).ready(function() {
+//   $(this).css('overflow','hidden');
+//
+//   var $socialFind = $(this).find('.homesocial');
+//
+//     $(".mainPhotoWrapper").hover(function() {
+//
+//         event.preventDefault();
+//
+//         $socialFind.slideDown(200);
+//
+//     }, function() {
+//         $socialFind.slideUp(500).stop(true,true);
+//     });
+//
+// });
 
 
 
-});
+
+// $(document).ready(function() {
+//
+//   var $logoOverlay = $("a.logoOverlay");
+//   var $logoBehind = $(".logoBehind");
+//
+//   $(".logoFront").hover(function(){
+//
+//     clearTimeout();
+//
+//     $logoBehind.addClass("logoActive");
+//     $logoOverlay.addClass("logoActive2");
+//
+//       if( $logoBehind.hasClass("logoActive") ){
+//
+//         $logoBehind.stop(true,true).animate({ marginTop: '10%'}, 500, "easeInOutCirc");
+//         //$logoOverlay.stop(true,true).animate({ marginTop: '10%', width: '238px', opacity: '1'}, 500, "easeInOutCirc");
+//         $("#moreInfo").stop(true,true).animate({ marginTop: '23%'}, 500, "easeInOutCirc");
+//         $("#socialMedia").stop(true,true).animate({ marginTop: '32%'}, 550, "easeInOutCirc");
+//
+//
+//           setTimeout(function(){
+//
+//             $(".featuredArtist").stop(true,true).animate({ marginLeft: '100%', opacity: "1"}, 400, "easeInOutCirc");
+//
+//           }, 50);
+//
+//       }
+//
+//
+//   },
+//
+//     function () {
+//
+//       setTimeout(function(){
+//
+//         //$logoOverlay.stop(true,true).animate({ marginTop: '2%', width: '0px', opacity: '0'}, 50, "easeInOutCirc");
+//         $logoBehind.stop(true,true).animate({ marginTop: '2%'}, 500, "easeInOutCirc");
+//         $("#moreInfo").stop(true,true).animate({ marginTop: '17%'}, 520, "easeInOutCirc");
+//         $("#socialMedia").stop(true,true).animate({ marginTop: '27%'}, 600, "easeInOutCirc");
+//
+//         $logoBehind.removeClass("logoActive");
+//         $logoOverlay.removeClass("logoActive2");
+//
+//       }, 150);
+//
+//       $(".featuredArtist").animate({ marginLeft: '0%', opacity: '0'}, 400, "easeInOutCirc");
+//
+//     })
+//
+//
+//
+// });
 
 
 $(document).ready(function(){
@@ -125,12 +125,12 @@ var pictureOffset = 0;
 
 
 $(document).ready(function(){
-    showNewPics( pictureOffset, 12);
+    showNewPics( pictureOffset, 10);
 
 
     $(window).scroll(function(){
         if($(window).scrollTop() + $(window).height() == $(document).height()) {
-            showNewPics( pictureOffset, 4);
+            showNewPics( pictureOffset, 6);
        }
     })
 });

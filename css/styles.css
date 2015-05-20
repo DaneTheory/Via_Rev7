@@ -179,7 +179,6 @@ h1.titlePage {
     display: inline-block;
     width: 100%;
     margin: auto;
-    text-align: center;
 }
 
 .button-group span{
@@ -218,13 +217,13 @@ h5.moreInfo {
     color: #95979A;
 	-webkit-font-smoothing: antialiased;
     font-size: 0.955em;
-    margin-right: auto;
     font-family: 'ProximaNova-Regular';
 }
 
 img.logoFront {
     z-index: 10;
     position: fixed;
+    width: 14%;
 }
 
 img.logoBehind {
@@ -322,13 +321,20 @@ a.onOurWalls h2 {
   margin-top: 3em;
 }
 
+a.fanArt h2 {
+  font-family: 'ProximaNova-Black';
+  font-size: 30px;
+  line-height: 0.8em;
+  -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+}
 
 a.all h2{
   font-family: 'ProximaNova-Black';
   font-size: 30px;
   line-height: 0.8em;
   -webkit-font-smoothing: antialiased;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .button-group a span {
@@ -338,6 +344,7 @@ a.all h2{
     position: relative;
     display: inline-block;
     white-space: nowrap;
+    /* text-align: left !important; */
 }
 
 .artistsInResidence h2 span {
@@ -346,7 +353,7 @@ a.all h2{
 }
 
 .artistsInResidence {
-    padding-bottom: 2em;
+    padding-bottom: 0em;
 }
 
 .partnerArtists {
@@ -357,6 +364,346 @@ a.all h2{
 i.oow {
     font-style: inherit;
     white-space: nowrap;
+}
+
+
+/* ==========================================================================
+   MAIN CONTENT STYLES
+   ========================================================================== */
+img.reblogIcon {
+    margin-left: 1em;
+}
+
+img.photoIcon {
+    position: relative;
+    top: 0.5em;
+    right: 1.5em;
+}
+
+img.cameraIcon {
+    position: relative;
+    top: 1em;
+    right: 1em;
+}
+
+img.heartIcon.show-for-large-up {
+    /* position: relative; */
+    display: inline-block;
+    width: 10%;
+}
+
+img.reblogIcon.show-for-large-up {
+    /* position: relative; */
+    display: inline-block;
+    width: 10%;
+}
+
+img.reblogIcon {
+    margin-left: 15%;
+	display:inline-block;
+}
+
+img.heartIcon {
+	position:absolute;
+	display:inline-block;
+    bottom: 0;
+}
+
+
+/* ==========================================================================
+   TABLET STYLES
+   ========================================================================== */
+.topBar-wrapper {
+    background: #12B5EA;
+}
+
+.topBar {
+    /* position: relative; */
+    width: 100%;
+    height: 4em;
+    z-index: 9;
+    background: #12B5EA;
+}
+
+h1.tabletLogo {
+    font-family: 'ProximaNova-Black';
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.75em;
+    margin: 0;
+    margin-left: 12%;
+    margin-top: 1.5%;
+}
+
+ span.tabletSubLogo {
+    /* font-family: 'ProximaNova'; */
+    /* font-style: italic; */
+    font-size: 0.75em;
+    font-family: 'Baskerville-MedIta';
+		-webkit-font-smoothing: antialiased;
+    margin-right: -6px;
+    margin-left: -8px;
+}
+
+img.instagramTablet {
+    position: absolute;
+    width: 4%;
+    display: inline-block;
+    right: 10%;
+    top: 0%;
+}
+
+img.mailTablet {
+    position: absolute;
+    width: 5%;
+    display: inline-block;
+    right: 2%;
+    top: 6%;
+}
+
+h5.moreInfo.show-for-medium-only {
+    color: white;
+    text-align: left;
+    font-size: 0.75em;
+    padding-bottom: 3em;
+    padding-top: 0em;
+}
+
+.show-for-medium-only h2 {
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.button-group.show-for-medium-only a span {
+    text-align: left;
+    font-size: 0.85em;
+    position: relative;
+    display:inline-block;
+}
+
+.button-group.show-for-medium-only a.onOurWalls h2 {
+  font-family: 'ProximaNova-Black';
+  font-size: 30px;
+  line-height: 0.8em;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 2em;
+
+  text-align: left;
+  font-size: 1.4em;
+}
+
+.button-group.show-for-medium-only a.fanArt h2 {
+  font-family: 'ProximaNova-Black';
+  font-size: 30px;
+  line-height: 0.8em;
+  -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+
+  text-align: left;
+  font-size: 1.4em;
+}
+
+h3.artistNameTablet.show-for-medium-only {
+	text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  /* z-index: 99999; */
+  position: absolute;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-family: 'ProximaNova-Semibold';
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+img.heartIconTablet.show-for-medium-only {
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+}
+
+img.reblogIconTablet.show-for-medium-only {
+    display: inline-block;
+    width: 10%;
+    margin-left: 15%;
+}
+
+.topCusion.show-for-medium-only {
+    position: relative;
+    width: 100%;
+
+    height: 4.5em;
+    min-height: 4.5em;
+		max-height: 6.5em;
+}
+
+img.sliverTablet.show-for-medium-only {
+    position: absolute;
+    width: 25px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    height: 100%;
+    left: 45%;
+}
+
+/* ==========================================================================
+   MOBILE STYLES
+   ========================================================================== */
+.topBar-wrapper {
+    background: #12B5EA;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: white;
+    height: 4.5em;
+}
+
+.topBar {
+    position: absolute;
+    width: 100%;
+    height: 3.75em;
+    z-index: 9;
+    background: #12B5EA;
+    top: 0;
+}
+
+h1.mobileLogo {
+    font-family: 'ProximaNova-Black';
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.7em;
+    margin: 0;
+
+    text-align: left;
+
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+span.mobileSubLogo {
+    /* font-family: 'ProximaNova'; */
+    /* font-style: italic; */
+    font-size: 0.75em;
+    margin-right: -5px;
+    margin-left: -7px;
+    font-family: 'Baskerville-MedIta';
+		-webkit-font-smoothing: antialiased;
+}
+
+img.instagramMobile {
+	position: fixed;
+    width: 7%;
+    display: inline-block;
+    top: 0.65em;
+}
+
+img.mailMobile {
+	position: fixed;
+    width: 7%;
+    display: inline-block;
+    top: 0.65em;
+    margin-left:13%;
+}
+
+h5.moreInfo.show-for-small-only {
+    color: white;
+    text-align: left;
+    font-size: 0.75em;
+    padding-bottom: 0;
+    padding-top: 2em;
+}
+
+.show-for-small-only h2 {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.button-group.show-for-small-only a span {
+    text-align: left;
+    font-size: 0.75em;
+    position: relative;
+    display:inline-block;
+}
+
+.button-group.show-for-small-only .artistsInResidence {
+  padding-top:1em;
+  padding-bottom: 0em;
+}
+
+.button-group.show-for-small-only .partnerArtists {
+  padding-bottom: 0em;
+}
+
+.button-group.show-for-small-only a.onOurWalls h2{
+  font-size:1.2em;
+}
+
+.button-group.show-for-small-only a.onOurWalls h2 {
+  font-family: 'ProximaNova-Black';
+  font-size: 30px;
+  line-height: 0.8em;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 2em;
+
+  text-align: left;
+  font-size: 1.4em;
+}
+
+.button-group.show-for-small-only a.fanArt h2 {
+  font-family: 'ProximaNova-Black';
+  font-size: 30px;
+  line-height: 0.8em;
+  -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+
+  text-align: left;
+  font-size: 1.4em;
+}
+
+h3.artistNameMobile.show-for-small-only {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    /* z-index: 99999; */
+    position: absolute;
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'ProximaNova-Semibold';
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+img.heartIconMobile.show-for-small-only {
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+}
+
+img.reblogIconMobile.show-for-small-only {
+    display: inline-block;
+    width: 10%;
+    margin-left: 15%;
+}
+
+.topCusion.show-for-small-only {
+    position: relative;
+    width: 100%;
+    height: 4.2em;
+}
+
+img.sliverMobile.show-for-small-only {
+    position: absolute;
+    width: 25px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    height: 100%;
+    left: 72%;
 }
 
 /* ==========================================================================
@@ -411,7 +758,7 @@ body {
 
 
 /*#windowContainer {
-    max-width: 800px !important;
+	padding-top: 12%;
 }*/
 
 /*.stamp {
@@ -521,6 +868,7 @@ body,
 
 .menu-wrap a {
 	color: #b8b7ad;
+	text-align: left;
 }
 
 .menu-wrap a:hover,
@@ -561,6 +909,7 @@ body,
 	position: fixed;
 	z-index: 1000;
 	margin: 1em;
+	margin-top: 1%;
 	padding: 0;
 	width: 1.85em;
 	height: 1.85em;
@@ -807,7 +1156,7 @@ body,
 .infoOverlay {
     width: 100%;
     height: 100%;
-    background-color: rgba(38,182,232,0.35);
+    background-color: rgba(18, 181, 234, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -826,7 +1175,7 @@ body,
 .infoOverlay:hover {
     width: 100%;
     height: 100%;
-    background-color: rgba(38,182,232,0.35);
+    background-color: rgba(18, 181, 234, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -842,11 +1191,13 @@ body,
     padding-bottom: 0.5em;
     /* z-index: 99999; */
     position: absolute;
-    top: 50%;
+    top: 45%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    font-family: 'ProximaNova-Semibold';
     color: white;
+    -webkit-font-smoothing: antialiased;
 }
 
 .infoOverlay .tumblrLikeButton {
@@ -1065,18 +1416,18 @@ perspective: 1200px;
 
     /* Loaded */
     .loaded #loader-wrapper .loader-section.section-left {
-        -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
-            -ms-transform: translateX(-100%);  /* IE 9 */
-                transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+        -webkit-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+                transform: translateX(-100%);
 
         -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
                 transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
 
     .loaded #loader-wrapper .loader-section.section-right {
-        -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
-            -ms-transform: translateX(100%);  /* IE 9 */
-                transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+        -webkit-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+                transform: translateX(100%);
 
 -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
         transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
@@ -1120,14 +1471,15 @@ body.load {
     position: absolute;
     display: block;
     bottom: 0;
-    text-align: center;
-    left: 0;
+    text-align: left;
+    left: 8%;
     right: 0;
+    bottom: 8%;
     width: 100%;
-    background: white;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    /* background: white; */
+    /* border-bottom: 1px solid black; */
+    /* border-left: 1px solid black; */
+    /* border-right: 1px solid black; */
 }
 
 
@@ -1146,8 +1498,8 @@ h6.homeBrand {
 }
 
 .typeIcon img{
-    width:60%;
-    height:60%;
+    width: 100%;
+    height: 100%;
 }
 
 
