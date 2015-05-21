@@ -164,9 +164,6 @@ function initIsotopes()
         },
         percentPosition: true,
     });
-
-    var $stampElem = $container.find('.stamp');
-
 }
 
 
